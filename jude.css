@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    background-color: #BEB5A9;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0,1);
+}
+
+
+
+
+
+
+.container .left-side{
+ background:rgb(58, 26, 26);
+ padding: 40px;
+}
+
+.container .right-side{
+   background: ;
+   padding: 40px;
+
+}
