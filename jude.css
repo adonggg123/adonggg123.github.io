@@ -5,41 +5,131 @@
 }
 .container{
     position: relative;
-    background-color: #7c7872;
+    background-color: #BEB5A9;
     width: 100%;
-    max-width: 1000px;
-    min-height: 1000px;
+    max-width: 990px;
+    min-height: 2200px;
     margin: 50px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0,0,0,0,1);
 }
 .container .left-side{
-    background:rgb(20, 40, 38);
-    padding: 40px;
-    text-align: center;
+ background:rgb(0, 30, 37);
+ width: 430px;
+ margin: 10px;
+ padding: 40px;
+ border-radius: 20px; 
 }
-.container .left-side span {
-    position: relative;
-    top: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: "Playfair Display", serif;
-}
-.container .right-side{
-   background: white;
-   padding: 40px;
-   width: 170px;
-   height: 170px;
-   border-radius: 100px;   
+.container .profile{
+   background: rgb(255, 255, 255);
+   padding: 65px;
+   width: 250px;
+   height: 250px;
+   border-radius: 150px;
    display: flex;
-   align-items: center;
    justify-content: center;
+   align-items: center;
    overflow: hidden;
 }
-.container .right-side img {
-    width: 185%; 
-    height: 185%;
+img {
+    width: 200%;    
+    height: 200%;   
     object-fit: cover;
-    border-radius: 100px;
+    border-radius: 150px;
+ }
+ .contact-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    color: white;
+    margin-top: 4%;
+}
+ .short-line {
+    width: 100%;              
+    height: 2px;           
+    background-color: #fafafa;  
+    margin-top: 10px;        
+    margin-bottom: 20px;  
+    margin-top: 30%;
+}
+.contact{      
+    display: flex;
+    width: -10%;
+    padding: 10px;
+    color: white;
+    font-size: 40px;
+}
+.email{
+    display: flex;
+    padding: 10px;
+    color: white;
+    font-size: 40px;
+}
+.location{
+    display: flex;
+    padding: 10px;
+    color: white;
+    font-size: 40px;
+}
+.website{
+    display: flex;
+    padding: 10px;
+    color: white;
+    font-size: 40px;
+}
+.num{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.email-name{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.web-name{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.location-name{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.line1{
+    width: 100%;              
+    height: 3px;           
+    background-color: #fafafa;  
+    margin-top: 10px;        
+    margin-bottom: 20px;  
+    margin-top: 25%;
+}
+.Education-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    color: white;
+    margin-top: 3%;
+}
+.education{
+    font-size: 25px;
+    margin-left: 10px;
+    color: white;
+}
+.elem{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.elem1{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    font-style: italic;
+    font-size: 25px;
+    margin-top: 5%;
+}
+.highschool{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 5%;
 }
