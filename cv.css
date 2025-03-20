@@ -47,8 +47,7 @@ img {
     margin-top: 10%;
 }
  .contact-name{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     color: rgb(0, 0, 0);
     margin-top: 0%;
@@ -86,18 +85,22 @@ img {
     font-size: 40px;
 }
 .num{
+    font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     margin-left: 10px;
 }
 .email-name{
-    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
     margin-left: 10px;
 }
 .web-name{
-    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
     margin-left: 10px;
 }
 .location-name{
+    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     margin-left: 10px;
 }
@@ -111,15 +114,14 @@ img {
 }
 .box2{
     background:rgb(249, 249, 249);
-    width: 260px;
+    width: 275px;
     margin: 10px;
     padding: 15px;
     border-radius: 5px; 
     margin-top: 5%;
 }
 .Education-name{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     color: rgb(0, 0, 0);
     margin-top: 3%;
@@ -139,39 +141,38 @@ img {
     color: white;
 }
 .elem{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
 }
 .elem1{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 5%;
     color: white;
 }
 .highschool{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;;
     margin-top: 5%;
     color: white;
 }
 .high{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    font-size: 17px;
+    font-size: 20px;
     margin-top: 5%;
     color: white;
 }
 .seniorhigh{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-seriff;
     color: white;
+    font-size: 30px;
 }
 .senior{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    font-size: 17px;
+    font-size: 20px;
     margin-top: 5%;
 }
 .line3{
@@ -183,8 +184,7 @@ img {
 
 }
 .skills{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     color: rgb(0, 0, 0);
     margin-top: 0%;
@@ -219,7 +219,7 @@ img {
     width: 200px;
     margin: 10px;
     padding: 15px;
-    border-radius: 15px; 
+    border-radius: 5px; 
     margin-top: 5%;
     display: flex;
 }
@@ -254,9 +254,15 @@ border-radius: 20px;
 
 .name {
     font-family: 'Montserrat', sans-serif;
-    font-size: 250%;
+    font-size: 320%;
+    color: rgb(0, 0, 58);
 }
 .highlight {
     color: rgb(71, 71, 71); 
     font-weight: bold;
+}
+.buttom-name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    color: rgb(69, 69, 69);
 }
