@@ -23,10 +23,10 @@
 }
 .container .profile{
    background: rgb(255, 255, 255);
-   padding: 65px;
-   width: 250px;
-   height: 250px;
-   border-radius: 150px;
+   padding: 89px;
+   width: 350px;
+   height: 350px;
+   border-radius: 350px;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -36,7 +36,7 @@ img {
     width: 200%;    
     height: 200%;   
     object-fit: cover;
-    border-radius: 150px;
+    border-radius: 350px;
  }
  .box1{
     background:rgb(255, 255, 255);
@@ -154,7 +154,6 @@ img {
 .highschool{
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;;
-    margin-top: 5%;
     color: white;
 }
 .high{
@@ -254,7 +253,7 @@ border-radius: 20px;
 
 .name {
     font-family: 'Montserrat', sans-serif;
-    font-size: 320%;
+    font-size: 420%;
     color: rgb(0, 0, 58);
 }
 .highlight {
@@ -264,5 +263,39 @@ border-radius: 20px;
 .buttom-name{
     font-family: 'Times New Roman', Times, serif;
     font-size: 150%;
-    color: rgb(69, 69, 69);
+    position: relative;
+    top: 10px;
+    color: rgb(67, 64, 64);
 }
+.line4{
+    background-color: #0e0142;  
+    width: 15%;              
+    height: 3px;          
+    margin-bottom: 20px; 
+    margin-top: 2%; 
+}
+.profile1{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    font-size: 25px;
+    top: 100px;
+}
+.line5{
+    background-color: #0e0142;  
+    width: 100%;              
+    height: 3px;          
+    margin-bottom: 20px; 
+    margin-top: 2%; 
+}
+ .paragraph{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+    color: black;
+ }
+ .about{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    font-size: 25px;
+    top: 150px;
+ }
