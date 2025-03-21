@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 .container{
-    position: relative;
-    background-color: #06020d;
+    position: absolute;
+    background-color: #525252;
     width: 100%;
     max-width: 990px;
-    min-height: 2400px;
+    height: 2100px;
+    min-height: auto;
     margin: 50px;
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0,0,0,0,1);
 }
@@ -44,7 +45,7 @@ img {
     margin: 10px;
     padding: 15px;
     border-radius: 5px; 
-    margin-top: 10%;
+    margin-top: 9%;
 }
  .contact-name{
     font-family: 'Montserrat', sans-serif;
@@ -62,46 +63,42 @@ img {
 .contact{       
     display: flex;
     width: -10%;
-    padding: 10px;
     color: white;
     font-size: 40px;
 }
 .email{
     display: flex;
-    padding: 10px;
     color: white;
     font-size: 40px;
 }
 .location{
     display: flex;
-    padding: 10px;
     color: white;
     font-size: 40px;
 }
 .website{
     display: flex;
-    padding: 10px;
     color: white;
     font-size: 40px;
 }
 .num{
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 10px;
 }
 .email-name{
     font-family: 'Montserrat', sans-serif;
-    font-size: 21px;
+    font-size: 20px;
     margin-left: 10px;
 }
 .web-name{
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 10px;
 }
 .location-name{
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 10px;
 }
 .line1{
@@ -124,7 +121,6 @@ img {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     color: rgb(0, 0, 0);
-    margin-top: 3%;
     
 }
 .line2{
@@ -142,10 +138,12 @@ img {
 }
 .elem{
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
 }
 .elem1{
     font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 30px;
     font-style: italic;
     font-size: 20px;
     margin-top: 5%;
@@ -153,11 +151,13 @@ img {
 }
 .highschool{
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;;
+    font-size: 25px;;
     color: white;
 }
 .high{
     font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 30px;
     font-style: italic;
     font-size: 20px;
     margin-top: 5%;
@@ -166,10 +166,12 @@ img {
 .seniorhigh{
     font-family: 'Montserrat', sans-seriff;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
 }
 .senior{
     font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 30px;
     font-style: italic;
     font-size: 20px;
     margin-top: 5%;
@@ -197,28 +199,27 @@ img {
     margin-top: 5%;
 }
 .background{
-    background:rgb(249, 249, 249);
+    background:rgb(255, 255, 255);
     width: 335px;
     margin: 10px;
     padding: 15px;
     border-radius: 5px; 
     margin-top: 10%;
-    min-height: 535px;
+    min-height: 480px;
 }
 .photography, .videography, .editing, .leadership{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
+    font-family:  'Montserrat', sans-serif;
     font-size: x-large;
-    color: rgb(254, 253, 253); 
-    margin-top: 10%;
+    color: rgb(255, 255, 255); 
+    margin-top: 5%;
     line-height: 20px;
 }
 .box4{
-    background:rgb(66, 69, 70);
-    width: 200px;
+    background:rgb(1, 49, 57);
+    width: 210px;
     margin: 10px;
     padding: 15px;
-    border-radius: 5px; 
+    border-radius: 50px; 
     margin-top: 5%;
     display: flex;
 }
@@ -250,21 +251,36 @@ margin: 10px;
 padding: 40px;
 border-radius: 20px; 
 }
-
+.box5{
+    background:rgb(184, 184, 184);
+    position: relative;
+    width: 520px;
+    margin: 10px;
+    min-height: 250px;
+    top: -61px;
+    padding: 15px;
+    border-radius: 20px; 
+    margin-top: 5%;
+    left: -11%;
+}
 .name {
     font-family: 'Montserrat', sans-serif;
-    font-size: 420%;
+    position: relative;
+    top: 30px;
+    font-size: 360%;
     color: rgb(0, 0, 58);
 }
 .highlight {
-    color: rgb(71, 71, 71); 
+    color: rgb(71, 71, 71);
+    margin-right: 15px;
+    display: inline-block; 
     font-weight: bold;
 }
 .buttom-name{
     font-family: 'Times New Roman', Times, serif;
     font-size: 150%;
     position: relative;
-    top: 10px;
+    top: -50px;
     color: rgb(67, 64, 64);
 }
 .line4{
@@ -278,7 +294,7 @@ border-radius: 20px;
     font-family: 'Montserrat', sans-serif;
     position: relative;
     font-size: 25px;
-    top: 100px;
+    top: 68px;
 }
 .line5{
     background-color: #0e0142;  
@@ -288,14 +304,67 @@ border-radius: 20px;
     margin-top: 2%; 
 }
  .paragraph{
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    right: -25px;
     font-size: 20px;
     color: black;
  }
+ .timeline {
+    position: relative;
+    left: -215px;
+    top: -220px;
+    width: 2px;
+    background-color: #0a2a3f;
+    height: 200px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #0a2a3f;
+    border-radius: 50%;
+}
  .about{
     font-family: 'Montserrat', sans-serif;
     position: relative;
     font-size: 25px;
-    top: 150px;
+    top: -120px;
  }
+ .timeline1 {
+    position: relative;
+    left: -215px;
+    top: -500px;
+    width: 2px;
+    background-color: #0a2a3f;
+    height: 500px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.work-experience{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    font-size: 25px;
+    top: -320px;
+} 
+.experience{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+    top: 10px;
+}
+.experience1{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+    top: 30px;
+}
