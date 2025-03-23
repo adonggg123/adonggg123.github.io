@@ -7,7 +7,7 @@
     position: absolute;
     background-color: #525252;
     width: 100%;
-    max-width: 990px;
+    max-width: 1170px;
     height: 2100px;
     min-height: auto;
     margin: 50px;
@@ -246,7 +246,7 @@ img {
 }
 .container .right-side{
 background:rgb(255, 255, 255);
-width: 520px;
+width: 700px;
 margin: 10px;
 padding: 40px;
 border-radius: 20px; 
@@ -254,20 +254,20 @@ border-radius: 20px;
 .box5{
     background:rgb(184, 184, 184);
     position: relative;
-    width: 520px;
+    width: 700px;
     margin: 10px;
     min-height: 250px;
-    top: -61px;
+    top: -71px;
     padding: 15px;
     border-radius: 20px; 
     margin-top: 5%;
-    left: -11%;
+    left: -8%;
 }
 .name {
     font-family: 'Montserrat', sans-serif;
     position: relative;
     top: 30px;
-    font-size: 360%;
+    font-size: 390%;
     color: rgb(0, 0, 58);
 }
 .highlight {
@@ -312,8 +312,8 @@ border-radius: 20px;
  }
  .timeline {
     position: relative;
-    left: -215px;
-    top: -220px;
+    left: -300px;
+    top: -170px;
     width: 2px;
     background-color: #0a2a3f;
     height: 200px;
@@ -337,8 +337,8 @@ border-radius: 20px;
  }
  .timeline1 {
     position: relative;
-    left: -215px;
-    top: -500px;
+    left: -300px;
+    top: -295px;
     width: 2px;
     background-color: #0a2a3f;
     height: 500px;

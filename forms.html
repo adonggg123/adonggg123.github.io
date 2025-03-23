@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>judeWebsite</title>
+</head>
+<body>
+    <div class="background">
+        <div class="content">
+
+            <!-- login-form -->
+            <div class="form-container active" id="login-form">
+              <form action="Home.html">
+                <div class="login-text">
+                    <span><b>LOGIN</b></span>
+                </div>
+                <div class="textEmail">
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-container">
+                    <input type="email" class="inputText" name="email" placeholder="Your email...">
+                    <i class='bx bxs-envelope'></i>
+                </div>
+                <div class="textPassword">
+                    <label for="password">Password</label>
+                </div>
+                <div class="input-container">
+                    <i class='bx bxs-lock-alt'></i>
+                    <input type="password" class="inputText" name="password" placeholder="Password...">
+                </div>
+                <div class="check-box">
+                    <input type="checkbox" name="remember">
+                    <label for="remember">Remember Me?</label>
+                </div>
+                <div class="loginbtn">
+                    <button type="submit" class="submitbtn">Login</button>
+                </div> 
+                <div class="signup">
+                <p>Don't have an account? <span class="switch-btn" onclick="toggleForms('signup-form')">Sign up</span></p>
+            </div>
+              </form>
+          </div>
+          
+           <!-- signup-form -->
+          <div class="form-container" id="signup-form">
+                <form action="Home.html">
+                    <div class="signup-text">
+                      <span><b>SIGN UP</b></span>
+                    </div>
+                    <div class="fullname">
+                        <label for="fullname">Fullname</label>
+                    </div>
+                    <div class="input-container">
+                        <i class='bx bxs-user'></i>                    
+                        <input type="text" class="inputText" name="fullname" placeholder="Fullname...">
+                    </div>
+                    <div class="email">
+                        <label for="email">Email</label>
+                    </div>  
+                    <div class="input-container">
+                        <i class='bx bxs-envelope'></i>
+                        <input type="email" class="inputText" name="email" placeholder="Email...">
+                    </div>
+                    <div class="password">
+                        <label for="password">Password</label>
+                    </div>
+                    <div class="input-container">
+                        <i class='bx bxs-lock-alt'></i>
+                        <input type="password" class="inputText" name="password" placeholder="Password...">
+                    </div>
+                    <div class="confirm-password">
+                        <label for="confirm-password">Confirm Password</label>
+                    </div>
+                    <div class="input-container">
+                        <i class='bx bxs-lock-alt'></i>
+                        <input type="password" class="inputText" name="confirm-password" placeholder="Confirm password...">
+                    </div>
+                    <div class="register-btn">
+                        <button type="submit" class="submitbtn">Register</button>
+                     </div>
+                    <div class="login">
+                        <p>Already have an account? <span class="switch-btn" onclick="toggleForms('login-form')">Log in</span></p>
+                   </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleForms(formId) {
+            document.querySelector('.form-container.active').classList.remove('active');
+            document.getElementById(formId).classList.add('active');
+        }
+    </script>
+    
+</body>
+</html>
