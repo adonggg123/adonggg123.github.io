@@ -7,21 +7,24 @@
     <title>Jude.Landing</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"></head>
 <body>
-    <div class="menu-container">
-        <div class="logo"> </div>
-            <img src="profile.jpg" alt="HTML5 Icon" class="image">
-             <div class="name">
-                <span class="highlight">JUDE</span>ESIDORE JARIOL
-             </div>
-        <div class="tabs">
-            <ul class="nav-container">
-                <li class="nav-list"><a href="#about" class="button">About</a></li>
-                <li class="nav-list"><a href="#blog" class="button">Blog</a></li>
-                <li class="nav-list"><a href="#pages" class="button">Pages</a></li>
-                <li class="nav-list"><a href="#services" class="button">Services</a></li>
-                <li class="nav-liist"><a href="#contact" class="button">Contact</a></li>
-                <li><button id="nav-list" href="forms.html" onclick="javascript:window.open('forms.html', '_self');">Login</button></li>
-            </ul>
+    <div class="header">
+        <div class="contanier">
+            <i id="btnMenu" class="fa-solid fa-bars"></i>
+            <nav class="menu">
+                <img class="imgs" src="profile.jpg" alt="">
+                <div class="names"> 
+                    <span class="highlight">JUDE</span>ESIDORE JARIOL
+                 </div>
+                <div class="nav-links">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#abouts">About</a>
+                    <a href="#Service">Services</a>
+                    <a href="#Blog">Blog</a>
+                    <a href="#Pages">Pages</a>
+                    <a href="#Contacts">Contacts</a>
+                    <a href="forms.html" class="btn" onClick="javascript:window.open('forms.html', '_blank');">Login</a>
+                </div>    
+            </nav>
         </div>
     </div>
     <div class="background1" id="bg1">
@@ -34,7 +37,7 @@
         </div>
     </div>
     
-    <section id="about">
+    <section class="abouts" id="abouts">
       <div class="background-about">
         <h1 class="about">About</h1>
         <p class="paragraph">I am a dedicated and motivated Bachelor of Science in Information Technology student with a strong passion for learning and self-improvement. I thrive on challenges that enhance my academic and personal growth, always striving to give my best in every endeavor. My eagerness to expand my knowledge drives me to explore new concepts, develop technical skills, and stay updated with emerging trends in technology. I am committed to continuous learning, embracing opportunities that push me beyond my comfort zone. With a hardworking mindset and a strong desire for excellence, I aim to grow both intellectually and professionally while contributing meaningfully to any task or project I undertake.</p>
