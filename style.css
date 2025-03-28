@@ -1,6 +1,5 @@
 
 /* l- login-signup */
-
 .inputText
      {
     width:  250px;
@@ -210,7 +209,7 @@ a{
     margin: -15px 0 0 20px;
 }
 .background{
-    background-image: url("pic2.webp");
+    background-image: url("pic3.webp");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -220,7 +219,6 @@ a{
     color: white;
     position: relative;    
 }
-
 .form-container {
     display: none;
     flex-direction: column;
@@ -228,7 +226,8 @@ a{
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 3%;
+    color: white;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -236,14 +235,14 @@ a{
     display: flex;
 }
 
-.background {
-    background: url('pic3.webp') center center / cover no-repeat;
+.background1 {
     position: relative;
     top: -170px;
-    height: 100vh;
+    height: 120vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url('pic3.webp') center center / cover no-repeat;
 }
 .signup-btn, .switch-btn {
     color: white;
@@ -259,6 +258,19 @@ body{
     position: real;
     margin: 0;
 }
+#nav-list{
+    color: rgb(255, 255, 255);
+    background-color: maroon;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 70px;
+    border: 0px;
+}
+#nav-list:hover{
+    background-color: black;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
 .menu-container {
     position: sticky;
     top: 0;
@@ -268,14 +280,7 @@ body{
     z-index: 1000;
     width: 100%;
     padding: 10px 0;
-    height: 130px;
-}
-.landing-page {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    position: relative;
-    right: 415px;
-    top: -150px;
+    height: 75px;
 }
 .vendor {
     position: relative;
@@ -291,12 +296,14 @@ ul.nav-container {
     padding: 0;
     margin: 0;
 }
+.button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 ul li {
-    font-family: 'Montserrat', sans-serif !important;
-    font-size: x-large;
+    font-size: 15px;
     position: relative;
-    top: -265px;
-    left: 1400px;
+    left: 850px;
+    top: -130px;
     list-style-type: none;
     padding: 10px;
 }
@@ -308,18 +315,17 @@ a{
     border-radius: 20px;
 }
 a:hover{
-    background-color: rgba(149, 137, 137, 0.5);
+    color: rgba(137, 2, 2, 0.815);
     transform: scale(1.05);
-    transition: 0.5s;
-    border-radius: 20px;
+    transition: 0.3s;
 } 
 .logo{
     background: rgb(125, 0, 0);
     position: relative;
     top: -8px;
     left: 70px;
-    width: 138px;
-    height: 138px;
+    width: 70px;
+    height: 70px;
     border-radius: 350px;
     justify-content: center;
     align-items: center;
@@ -327,10 +333,10 @@ a:hover{
 }
 .image{
     position: relative;
-    top: -140px;
-    right: 996px;
-    width:128px;
-    height:128px;
+    top: -75px;
+    left: -651px;
+    width: 65px;
+    height: 65px;
     border-radius: 50%;
     display: block;
     margin: 0 auto;
@@ -356,22 +362,30 @@ a:hover{
     font-family: 'Montserrat', sans-serif;
     position: relative;
     font-style: italic;
-    left: 230px;
-    top: -230px;
-    font-size: 200%;
+    left: 150px;
+    top: -110px;
+    font-size: 100%;
     color: rgb(1, 8, 57);
 }
 .highlight {
     color: rgb(132, 0, 0);
-    margin-right: 15px;
+    margin-right: 10px;
     display: inline-block; 
     font-weight: bold;
 }
+.landing-page {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    color: white;
+    left: -300px;
+    top: -95px;
+}
 .landing {
     position: relative;
-    right: 680px;
+    right: 480px;
     top: -20px;
-    font-size: 650%;
+    font-size: 350%;
     font-family: 'Montserrat', sans-serif;
     color: rgb(255, 255, 255);
 }
@@ -383,9 +397,9 @@ a:hover{
 .my-page{
     position: absolute;
     color: rgb(130, 129, 129);
-    font-size: 20px;
-    top: 250px;
-    left: 20px;
+    font-size: 13px;
+    top: -px;
+    left: 5px;
 }
 .link{
     color: rgb(130, 129, 129);
