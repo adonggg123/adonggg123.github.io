@@ -265,26 +265,16 @@ body{
     font-size: 20px;
 }
 .nav-links {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
     display: flex;
     justify-content: flex-end;
     position: absolute;
     padding: 0;
-    margin-left: 999px;
+    margin-left: 950px;
 }
 .menu{
-    padding-top: 10px;
-}
-.button{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-ul li {
-    font-size: 15px;
-    position: relative;
-    left: 850px;
-    top: -130px;
-    list-style-type: none;
-    padding: 10px;
+    padding-top: 20px;
 }
 a{
     text-decoration: none;
@@ -315,6 +305,7 @@ a:hover{
     border-radius: 30px;
     margin-left: 60px;
     height: 60px;
+    top: 5px;
 }
 .names {
     font-family: 'Montserrat', sans-serif;
@@ -386,8 +377,9 @@ html{
     scroll-behavior: smooth;
 }
 /* abouty */
+
 .background-about{
-    background-color: white;
+    background-image: url(backgound1.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -396,6 +388,7 @@ html{
     align-items: center;
     color: white;
     position: relative;    
+    top: -100px;
 }
 .about{
     position: absolute;
