@@ -203,6 +203,7 @@ h2:hover{
     color: white;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
+
 .form-container.active {
     display: flex;
 }
@@ -215,90 +216,87 @@ h2:hover{
     justify-content: center;
     align-items: center;
     color: white;  
-    height: 1000px;
-    width: 1915px;
     position: relative;
-    left: -30px;
-    top: -59px;
+    top: -100px;
 }
 .signup-btn, .switch-btn {
     color: white;
     cursor: pointer;
     text-decoration: underline;
 }
+
+
 /* home */
-html{
-    scroll-behavior: smooth;
-}
-body {
+body{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-header, section {
-    padding: 20px;
-}
-.btn{
-    color: rgb(255, 255, 255);
-    background-color: rgb(185, 192, 109);
-    border-radius: 15px;
-    font-size: 18px;
-    height: auto;
-    width: auto;
-    border: 0px;
-}
-.btn:hover{
-    background-color: black;
-    transform: scale(1.05);
-    transition: 0.3s;
-}
+
 .header {
+    position: absolute;
     position: sticky;
     top: 0;
-    background: rgba(142, 140, 140, 0.1);
-    backdrop-filter: blur(10px);
+    background: rgba(142, 140, 140, 0.1); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
     z-index: 1000;
     width: 100%;
     height: 75px;
 }
-
 .vendor {
+    position: relative;
+    bottom: -30px;
+    right: 490px;
     color: rgba(255, 255, 255, 0.5);
     font-size: 20px;
 }
 .nav-links {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
     display: flex;
     justify-content: flex-end;
-    left: -200px;
-    top: -60px;
+    position: absolute;
+    padding: 0;
+    margin-left: 950px;
 }
-.menu {
+.menu{
     padding-top: 20px;
 }
-
-a {
+a{
     text-decoration: none;
     color: white;
+    background-color: transparent;
     padding: 10px;
     border-radius: 20px;
 }
-a:hover {
+a:hover{
     color: rgba(185, 192, 109);
+    transform: scale(1.05);
     transition: 0.3s;
-}
-
-.imgs {
+} 
+.logo{
+    background: rgb(255, 255, 255);
     position: relative;
-    border: solid rgb(149, 163, 111) 1px;
+    left: 70px;
+    width: 70px;
+    height: 70px;
+    border-radius: 350px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;   
+}
+.imgs{
+    position: absolute;
+    border: solid rgb(163, 168, 106)1px ;
     border-radius: 30px;
+    margin-left: 60px;
     height: 60px;
-    top: -14px;
-    left: 50px;
+    top: 5px;
 }
 .names {
     font-family: 'Montserrat', sans-serif;
     position: absolute;
+    font-style: italic;
     left: 140px;
     top: 30px;
     font-size: 15px;
@@ -306,35 +304,67 @@ a:hover {
 }
 .highlight {
     color: rgb(185, 192, 109);
+    margin-right: 10px;
+    display: inline-block; 
     font-weight: bold;
 }
 .landing-page {
-    position: relative;
-    top: -145px;
-    left: 180px;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    position: relative;
     color: white;
+    left: -260px;
+    top: -110px;
 }
 .landing {
+    position: relative;
+    right: 435px;
+    top: -25px;
     font-size: 400%;
+    font-family: 'Montserrat', sans-serif;
     color: rgb(255, 255, 255);
 }
 .highlight1 {
     color: rgb(255, 255, 255);
+    display: inline-block; 
     font-weight: bold;
 }
-.my-page {
-    position: relative;
+.my-page{
+    position: absolute;
+    color: rgb(130, 129, 129);
     font-size: 13px;
-    color: rgb(130, 129, 129);
+    top: -px;
+    left: 5px;
 }
-.link {
-    position: relative;
+.link{
     color: rgb(130, 129, 129);
-    top: 150px;
+    position: absolute;
     font-size: 20px;
+    right: 340px;
+    top: 300px;
 }
-.background-about {
+.btn-viewcv {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    left: 100px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.btn-viewcv:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+/* abouty */
+
+.background-about{
     background-image: url(backgound1.jpg);
     background-size: cover;
     background-position: center;
@@ -343,73 +373,23 @@ a:hover {
     justify-content: center;
     align-items: center;
     color: white;
-    position: relative;
+    position: relative;    
+    top: -100px;
 }
-.about {
+.about{
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 50px;
     color: black;
+    top: -150px;
 }
-.paragraph {
+.paragraph{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
     color: black;
+    align-items: center;
     font-size: 20px;
+    right: 100px;
+    top:  70px;
     width: 500px;
-}
-@media (max-width: 768px) {
-    .header {
-        height: 60px;
-    }
-
-    .nav-links {
-        flex-direction: column;
-        align-items: center;
-        margin-left: 0;
-    }
-
-    .menu {
-        text-align: center;
-    }
-
-    .landing {
-        font-size: 300%;
-    }
-
-    .my-page {
-        font-size: 12px;
-        padding: 10px;
-    }
-
-    .paragraph {
-        font-size: 16px;
-        width: 100%;
-    }
-
-    .logo {
-        width: 60px;
-        height: 60px;
-    }
-
-    .imgs {
-        height: 50px;
-    }
-}
-@media (max-width: 480px) {
-    .landing {
-        font-size: 200%;
-    }
-
-    .my-page {
-        font-size: 11px;
-    }
-
-    .header {
-        height: 50px;
-    }
-
-    .nav-links {
-        font-size: 14px;
-    }
-
-    .menu {
-        padding-top: 10px;
-    }
 }
