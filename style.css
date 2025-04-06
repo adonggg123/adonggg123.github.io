@@ -309,12 +309,15 @@ a:hover {
 }
 .landing-page {
     position: relative;
-    top: -145px;
-    left: 180px;
+    top: -210px;
+    right: 20px;
     font-size: 20px;
     color: rgb(0, 0, 0);
 }
 .landing {
+    position: relative;
+    top: -120px;
+    right: 200px;
     font-size: 400%;
     color: rgb(0, 0, 0);
 }
@@ -322,15 +325,18 @@ a:hover {
     color: rgb(145, 0, 0);
     font-weight: bold;
 }
-.my-page {
+.my-page{
     position: relative;
-    font-size: 13px;
-    color: rgb(0, 0, 0);
+    right: 740px;
+    width: 500px;
+    top: 10px;
+    color: black;
 }
 .link {
     position: relative;
     color: rgb(0, 0, 0);
-    top: 200px;
+    top: 300px;
+    right: 1200px;
     font-size: 20px;
 }
 .background-about {
@@ -343,7 +349,59 @@ a:hover {
     align-items: center;
     color: white;
     position: relative;
+    @media (max-width: 768px) {
+        .header {
+            height: 60px;
+        }
+    
+        .nav-links {
+            flex-direction: column;
+            align-items: center;
+            margin-left: 0;
+        }
+    
+        .menu {
+            text-align: center;
+        }
+    
+        .landing {
+            font-size: 300%;
+        }
+    
+        .paragraph {
+            font-size: 16px;
+            width: 100%;
+        }
+    
+        .logo {
+            width: 60px;
+            height: 60px;
+        }
+    
+        .imgs {
+            height: 50px;
+        }
+    }
+    @media (max-width: 480px) {
+        .landing {
+            font-size: 200%;
+        }
+    
+        .header {
+            height: 50px;
+        }
+    
+        .nav-links {
+            font-size: 14px;
+        }
+    
+        .menu {
+            padding-top: 10px;
+        }
+    }
 }
+
+/* About */
 .about {
     position: relative;
     left: 800px;
@@ -371,65 +429,11 @@ a:hover {
     position: relative;
     top: -180px;
     color: black;
-    font-size: 80px;
-
+    font-size: 80px
 }
-@media (max-width: 768px) {
-    .header {
-        height: 60px;
-    }
 
-    .nav-links {
-        flex-direction: column;
-        align-items: center;
-        margin-left: 0;
-    }
 
-    .menu {
-        text-align: center;
-    }
-
-    .landing {
-        font-size: 300%;
-    }
-
-    .my-page {
-        font-size: 12px;
-        padding: 10px;
-    }
-
-    .paragraph {
-        font-size: 16px;
-        width: 100%;
-    }
-
-    .logo {
-        width: 60px;
-        height: 60px;
-    }
-
-    .imgs {
-        height: 50px;
-    }
-}
-@media (max-width: 480px) {
-    .landing {
-        font-size: 200%;
-    }
-
-    .my-page {
-        font-size: 11px;
-    }
-
-    .header {
-        height: 50px;
-    }
-
-    .nav-links {
-        font-size: 14px;
-    }
-
-    .menu {
-        padding-top: 10px;
-    }
+/* Services */
+.background{
+    
 }
